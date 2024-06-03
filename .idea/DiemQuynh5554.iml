@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="4">
+  <component name="AdditionalModuleElements">
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/DiemQuynh5554/src/main/resources/static/images" />
+      <excludeFolder url="file://$MODULE_DIR$/DiemQuynh5554/src/main/resources/templates/courses" />
+      <excludeFolder url="file://$MODULE_DIR$/DiemQuynh5554/src/main/resources/templates/home" />
+      <excludeFolder url="file://$MODULE_DIR$/DiemQuynh5554/src/main/resources/static" />
+      <excludeFolder url="file://$MODULE_DIR$/DiemQuynh5554/src/main/resources/templates" />
+    </content>
+  </component>
+</module>

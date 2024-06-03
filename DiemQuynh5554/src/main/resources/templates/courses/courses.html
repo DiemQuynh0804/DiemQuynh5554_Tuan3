@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Course List</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/style.css}">
+</head>
+<body>
+<h1>Danh sách các môn học</h1>
+<table>
+    <thead>
+    <tr>
+        <th>Mã môn học</th>
+        <th>Tên môn học</th>
+        <th>Hình ảnh</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="course : ${courses}">
+        <td th:text="${course.code}"></td>
+        <td th:text="${course.name}"></td>
+        <td><img th:src="@{/images/{img}(img=${course.imagePath})}" alt="Course Image" width="100"></td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>

@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Kết quả</title>
+</head>
+<body>
+<h1>Thông tin liên hệ đã gửi</h1>
+<p>Họ Tên: <span th:text="${contact.name}"></span></p>
+<p>Email: <span th:text="${contact.email}"></span></p>
+<p>Tin nhắn: <span th:text="${contact.message}"></span></p>
+<p>Ngày Gửi: <span th:text="${contact.date}"></span></p>
+</body>
+</html>
